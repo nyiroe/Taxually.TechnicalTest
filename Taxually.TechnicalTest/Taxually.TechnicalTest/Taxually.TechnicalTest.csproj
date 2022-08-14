@@ -21,6 +21,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Taxually.Adapter.Queue\Taxually.Adapter.Queue.csproj" />
     <ProjectReference Include="..\Taxually.Adapter.UK\Taxually.Adapter.UK.csproj" />
+    <ProjectReference Include="..\Taxually.Core.Ports.Inbound\Taxually.Core.Ports.Inbound.csproj" />
+    <ProjectReference Include="..\Taxually.Core\Taxually.Core.csproj" />
   </ItemGroup>
 
 </Project>

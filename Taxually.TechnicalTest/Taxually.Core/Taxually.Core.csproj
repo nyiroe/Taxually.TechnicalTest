@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Taxually.Core.Ports.Inbound\Taxually.Core.Ports.Inbound.csproj" />
+  </ItemGroup>
+
 </Project>
