@@ -1,4 +1,8 @@
+using Taxually.Adapter.UK;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddUkVatHttpClient();
 
 // Add services to the container.
 
