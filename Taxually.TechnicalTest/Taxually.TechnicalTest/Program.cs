@@ -1,8 +1,11 @@
+using Taxually.Adapter.Queue;
 using Taxually.Adapter.UK;
+using Taxually.Core.Ports.Outbound;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddUkVatHttpClient();
+builder.Services.AddScoped<IQueueService, QueueService>();
 
 // Add services to the container.
 

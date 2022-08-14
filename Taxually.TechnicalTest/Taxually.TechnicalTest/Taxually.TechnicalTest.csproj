@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Taxually.Adapter.Queue\Taxually.Adapter.Queue.csproj" />
     <ProjectReference Include="..\Taxually.Adapter.UK\Taxually.Adapter.UK.csproj" />
   </ItemGroup>
 
