@@ -1,4 +1,4 @@
-﻿namespace Taxually.Tests.Unit.Core
+﻿namespace Taxually.Tests.Unit.Core.Services
 {
     public class VatRegistrationWorkerFactoryTests
     {
